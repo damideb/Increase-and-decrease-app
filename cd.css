@@ -1,0 +1,50 @@
+section{
+    background-color: rgba(0, 0, 0, 0.973);
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    width: 50%;
+}
+h1{
+    margin: 2px;
+    color: hwb(180 50% 32%);
+    margin-left: 20%
+}
+
+#general{
+    margin: 15px;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#number{
+    font-size: 40px;
+    display: block;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+button{
+    width: 7rem;
+    height: 40px;
+    gap: 5rem;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 70px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+#decrease{
+    background-color: red;
+}
+#increase{
+    background-color: darkgoldenrod;
+}
